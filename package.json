@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-roadmap",
+  "version": "1.0.0",
+  "description": "A structured, tactical roadmap to master Tailwind CSS in 30 days. Each task builds on the last—complete them with intention and discipline.",
+  "main": "",
+  "scripts": {
+   "build": "postcss src/day-01-setup/src/input.css -o day-01-setup/public/dist/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  }
+}
