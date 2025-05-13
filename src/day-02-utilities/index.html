@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 2 - Tailwind utilities</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- Tailwind core utilities:
+ * Layout:
+    - flex, grid, block, inline-block, hidden
+ * Spacing:
+    - m-*, p-*, gap-*, space-x-*, space-y-*
+ * Typhography:
+    - text-*, font-*, tracking-*, leading-*
+ * Colors:
+    - bg-*, text-*, border-*
+ * State: 
+    - hover, focus:, disabled:, active:
+     -->
+
+    <!-- Practices and example -->
+
+    <!-- Mobile: text-center -->
+    <!-- Medium (≥768px): text-left -->
+    <p class="text-center md:text-left">Adapt to screen</p>
+
+    <!-- Making a card mobile responsive -->
+    <div
+      class="bg-white p-4 max-w-sm rounded:md mt-10 shadow-md mx-auto text-center md:text-left"
+    >
+      <h1 class="text-2xl mb-2">Tailwind Practices</h1>
+      <p class="text-gray-600">
+        Utility-first. Responsive. Ruthless efficiency.
+      </p>
+    </div>
+  </body>
+</html>
