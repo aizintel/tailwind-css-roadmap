@@ -9,7 +9,7 @@ A structured, tactical roadmap to master Tailwind CSS in 30 days. Each task buil
 - [x] Day 1: Setup Tailwind (CDN, CLI, PostCSS, frameworks)
 - [x] Day 2: Learn utility-first concept, responsive strategy
 - [x] Day 3: Typography utilities (`text-*`, `font-*`, `leading-*`)
-- [ ] Day 4: Spacing (`m-*`, `p-*`, `gap-*`, `space-*`)
+- [x] Day 4: Spacing (`m-*`, `p-*`, `gap-*`, `space-*`)
 - [ ] Day 5: Flexbox layout system
 - [ ] Day 6: CSS Grid with Tailwind
 - [ ] Day 7: Project – Simple landing page (hero, CTA, footer)
