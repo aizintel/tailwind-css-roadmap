@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 6 - Tailwind Grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-10 bg-gray-100 space-y-6">
+    
+    <!-- Basic Grid -->
+    <div class="grid grid-cols-3 gap-4 bg-white p-4 shadow">
+      <div class="bg-blue-500 text-white p-4">1</div>
+      <div class="bg-blue-600 text-white p-4">2</div>
+      <div class="bg-blue-700 text-white p-4">3</div>
+    </div>
+
+   
+    <!-- Grid with row spans -->
+    <div class="grid grid-cols-3 gap-4 bg-white p-4 shadow">
+      <div class="bg-green-500 text-white p-4 col-span-2">Wide 1</div>
+      <div class="bg-green-600 text-white p-4">3</div>
+      <div class="bg-green-700 text-white p-4 row-span-2">Tall</div>
+      <div class="bg-green-800 text-white p-4">5</div>
+      <div class="bg-green-900 text-white p-4">6</div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 bg-white p-4 shadow">
+        <div class="bg-green-500 text-white p-4 col-span-1">Box 1</div>
+        <div class="bg-green-600 text-white p-4 col-span-2">Box 2</div>
+        <div class="bg-green-600 text-white p-4 col-span-3">Box 3</div>
+    </div>
+
+    <!-- Grid auto-fit with minmax -->
+    <div class="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] gap-4 bg-white p-4 shadow">
+      <div class="bg-yellow-500 text-white p-4">Auto 1</div>
+      <div class="bg-yellow-600 text-white p-4">Auto 2</div>
+      <div class="bg-yellow-700 text-white p-4">Auto 3</div>
+      <div class="bg-yellow-800 text-white p-4">Auto 4</div>
+      <div class="bg-yellow-900 text-white p-4">Auto 5</div>
+    </div>
+
+    <!-- Grid with nested grid -->
+    <div class="grid grid-cols-2 gap-4 bg-white p-4 shadow">
+      <div class="bg-red-500 text-white p-4">Parent 1</div>
+      <div class="grid grid-cols-2 gap-2">
+        <div class="bg-red-600 text-white p-2">Nested 1</div>
+        <div class="bg-red-700 text-white p-2">Nested 2</div>
+        <div class="bg-red-800 text-white p-2 col-span-2">Nested 3</div>
+      </div>
+    </div>
+
+    <!-- Grid with alignment -->
+    <div class="grid grid-cols-3 items-center justify-items-center h-40 bg-white p-4 shadow">
+      <div class="bg-purple-500 text-white p-4">A</div>
+      <div class="bg-purple-600 text-white p-4">B</div>
+      <div class="bg-purple-700 text-white p-4">C</div>
+    </div>
+    
+  </body>
+</html>
