@@ -12,7 +12,7 @@ A structured, tactical roadmap to master Tailwind CSS in 30 days. Each task buil
 - [x] Day 4: Spacing (`m-*`, `p-*`, `gap-*`, `space-*`)
 - [x] Day 5: Flexbox layout system
 - [x] Day 6: CSS Grid with Tailwind
-- [ ] Day 7: Project – Simple landing page (hero, CTA, footer)
+- [x] Day 7: Project – Simple landing page (hero, CTA, footer)
 
 ---
 
